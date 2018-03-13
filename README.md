@@ -2,11 +2,20 @@
 
 ### **Author:** Xinliang Zhong [xinliangzhong@foxmail.com](http://www.hao123.com/mail)
 
+*	[0.Research on Real-time Location and Construction of Indoor Mobile Robots](#0)
 *	[1.DJI Robomasters Summer Camp.](#1)
 *	[2.Reconstruction of the scene based on RGBD-Camera.](#2)
 *	[3.An offline tool for pose-graph-optimization.](#3)
 *	[4.Auto Label tool for Autonomous Car.](#4)
 *	[5. Msckf-Mono.](#5)
+
+<a name = "0"></a>
+## 0.Research on Real-time Location and Construction of Indoor Mobile Robots.
+This projects aims to design a way to locate indoors autonomous mobile robot, the robot is equipped by the relevant sensor itself can be in a completely unknown environment situation accurately draw the map of the surrounding environment, and in this to achieve accurate positioning itself on the map basis.
+
+| Robot | Mapping process |
+|--------|--------|
+| <img src="./images/robot.jpg" width = "480" height = "320" alt="grab" align=center /> | <img src="./images/mapping.gif" width = "480" height = "320" alt="grab" align=center /> |
 
 <a name = "1"></a>
 ## 1.DJI [Robomasters](http://bbs.robomasters.com/portal.php) Summer Camp.
