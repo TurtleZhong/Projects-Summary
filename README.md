@@ -3,11 +3,12 @@
 ### **Author:** Xinliang Zhong [xinliangzhong@foxmail.com](http://www.hao123.com/mail)
 
 *	[0.Research on Real-time Location and Construction of Indoor Mobile Robots](#0)
-*	[1.DJI Robomasters Summer Camp.](#1)
-*	[2.Reconstruction of the scene based on RGBD-Camera.](#2)
-*	[3.An offline tool for pose-graph-optimization.](#3)
-*	[4.Auto Label tool for Autonomous Car.](#4)
+*	[1. DJI Robomasters Summer Camp.](#1)
+*	[2. Reconstruction of the scene based on RGBD-Camera.](#2)
+*	[3. An offline tool for pose-graph-optimization.](#3)
+*	[4. Auto Label tool for Autonomous Car.](#4)
 *	[5. Msckf-Mono.](#5)
+*	[6. Camera-Lidar-Calibration](#6)
 
 <a name = "0"></a>
 ## 0.Research on Real-time Location and Construction of Indoor Mobile Robots.
@@ -64,11 +65,20 @@ The projects contains 2 main targets. One for **re-projection** the road sign an
 
 This project is under constuction and based on this paper:
 [A Multi-State Constraint Kalman Filter for Vision-aided Inertial Navigation](./docs)
-The **MSCKF_mono** package is a mono version of MSCKF. The software takes in synchronized mono images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame.
+The **[MSCKF_mono](https://github.com/TurtleZhong/msckf_mono)** package is a mono version of MSCKF. The software takes in synchronized mono images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame.
 
 The tracking results:
 
 ![tracking](./images/tracking.gif)
+
+<a name = "6"></a>
+## 6. Camera-Lidar-Calibration.
+
+The package is used to calibrate a 2D LiDAR or laser range finder(LRF) with a monocular camera. Specficially, Hokuyo UTM-30LX have been suscessfully calibrated against a mono camera.
+
+The calibration results:
+
+![tracking](./images/camera_lidar.gif)
 
 
 
