@@ -78,7 +78,9 @@ The package is used to calibrate a 2D LiDAR or laser range finder(LRF) with a mo
 
 The calibration results:
 
-![tracking](./images/camera_lidar.gif)
+| <img src="./images/camera_lidar.gif" width = "480" height = "310" alt="grab" align=center /> | <img src="./images/rotation.gif" width = "600" height = "225" alt="grab" align=center /> |
+|--------|--------|
+
 
 
 
