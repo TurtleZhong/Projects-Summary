@@ -59,6 +59,7 @@ The projects contains 2 main targets. One for **re-projection** the road sign an
 
 | <img src="./images/auto_label1.gif" width = "480" height = "320" alt="grab" align=center /> | <img src="./images/auto_label2.gif" width = "480" height = "320" alt="grab" align=center /> |
 |--------|--------|
+| <img src="./images/auto_label3.png" width = "480" height = "320" alt="grab" align=center /> | <img src="./images/auto_label4.png" width = "480" height = "320" alt="grab" align=center /> |
 
 <a name = "5"></a>
 ## 5. Msckf-Mono.
@@ -73,6 +74,8 @@ The tracking results:
 
 <a name = "6"></a>
 ## 6. Camera-Lidar-Calibration.
+
+##### **Code is available** [**here**](https://github.com/TurtleZhong/camera_lidar_calibration)!
 
 The package is used to calibrate a 2D LiDAR or laser range finder(LRF) with a monocular camera. Specficially, Hokuyo UTM-30LX have been suscessfully calibrated against a mono camera.
 
